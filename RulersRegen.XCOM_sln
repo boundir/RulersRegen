@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# XCOM ModBuddy Solution File, Format Version 11.00
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "RulersRegen", "RulersRegen\RulersRegen.x2proj", "{FFD223E9-FF24-4FBB-A9C1-52C4E1C4C2B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|XCOM 2 = Default|XCOM 2
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFD223E9-FF24-4FBB-A9C1-52C4E1C4C2B8}.Default|XCOM 2.ActiveCfg = Default|XCOM 2
+		{FFD223E9-FF24-4FBB-A9C1-52C4E1C4C2B8}.Default|XCOM 2.Build.0 = Default|XCOM 2
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
