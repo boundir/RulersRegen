@@ -16,6 +16,7 @@ static event OnPostTemplatesCreated()
 	Rulers.AddItem('ViperKing');
 	Rulers.AddItem('BerserkerQueen');
 	Rulers.AddItem('ArchonKing');
+	Rulers.AddItem('CXQueen');
 
 	`LOG("Regen Rulers loaded");
 
@@ -58,7 +59,7 @@ static function RegenAlienRulerHealthAndArmor(XComGameState_Unit UnitState)
 		CurrentHP = RulerState.GetCurrentStat(eStat_HP);
 		HPRegen = MaxHP * default.REGEN_HEALTH;
 		NewHP = CurrentHP + HPRegen;
-		`LOG("Regen Rulers: Escaped with " @ CurrentHP @ ". Will regen" @ HPRegen);
+		// `LOG("Regen Rulers: Escaped with " @ CurrentHP @ ". Will regen" @ HPRegen);
 		// `LOG("Regen Rulers DEBUG: MaxHP " @ MaxHP);
 		// `LOG("Regen Rulers DEBUG: HPRegen " @ HPRegen);
 		// `LOG("Regen Rulers DEBUG: NewHP " @ NewHP);
