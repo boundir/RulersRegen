@@ -4,7 +4,7 @@ Rulers will now regen Health and Armor when leaving the combat zone.
 
 [h1]Changes[/h1]
 
-Rulers will regen 50% of their health and 100% of their armor.
+Rulers will regen 33% of their maximum health and 100% of their armor. 33% being where they are supposed to flee on the first encounter.
 Amount of regen can be customized in [u]XComRulersRegen.ini[/u]
 
 [h1]Credits[/h1]
