@@ -1,0 +1,12 @@
+# Visual Studio / ModBuddy per-user state
+*.XCOM_suo
+.vs/
+.vscode/settings.json
+
+# Build output
+BuildCache/
+Script/
+*.u
+obj/
+bin/
+*.XCOM_sln
